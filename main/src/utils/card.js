@@ -56,8 +56,8 @@ export const galContestants = [
     id: "s934",
   },
   {
-    img: "/gay.jpg",
-    name: "Chris Newman",
+    img: "/abgay.jpg",
+    name: "Kat Newman",
     country: "USA",
     bio: "Chris brings an elegant and timeless beauty to the modeling world. His portfolio includes high-end fashion and editorial work.",
     about:

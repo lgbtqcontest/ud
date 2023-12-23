@@ -4,7 +4,6 @@ import { ig as Instagram } from "./../../assets/svg/ig";
 import { fb as Facebook } from "./../../assets/svg/fb";
 import { cl as Close } from "./../../assets/svg/cl";
 import "./md.css";
-import { useState } from "react";
 
 // eslint-disable-next-line react/prop-types
 const Modal = ({ open, setOpen, text, mode }) => {
@@ -39,7 +38,7 @@ const Modal = ({ open, setOpen, text, mode }) => {
             <h2>Create my account with</h2>
             <div className="btns">
               <a
-                href="https://uod-application.onrender.com/facebook"
+                href="https://lgbtq-contest.onrender.com/facebook"
                 target="_self"
                 className="fb"
               >
@@ -47,7 +46,7 @@ const Modal = ({ open, setOpen, text, mode }) => {
                 <p className="btn-txt">Facebook</p>
               </a>
               <a
-                href="https://uod-application.onrender.com/instagram"
+                href="https://lgbtq-contest.onrender.com/instagram"
                 target="_parent"
                 className="ig"
               >
@@ -59,7 +58,7 @@ const Modal = ({ open, setOpen, text, mode }) => {
               </div>
               <a
                 className="gl"
-                href="https://uod-application.onrender.com/google"
+                href="https://lgbtq-contest.onrender.com/google"
                 target="_parent"
               >
                 <Google /> <p className="btn-txt">Google</p>
